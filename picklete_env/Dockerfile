@@ -33,7 +33,7 @@ RUN /bin/bash -l -c "gem install compass"
 RUN /bin/bash -l -c "gem install bootstrap-sass"
 
 RUN apt-get install -y python
-RUN apt-get install -y imagemagick
+RUN apt-get install -y GraphicsMagick
 
 
 
