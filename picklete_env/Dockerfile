@@ -32,7 +32,8 @@ RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 RUN /bin/bash -l -c "gem install compass"
 RUN /bin/bash -l -c "gem install bootstrap-sass"
 
-RUN sudo apt-get install -y python
+RUN apt-get install -y python
+RUN apt-get install -y imagemagick
 
 
 
