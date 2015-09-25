@@ -7,7 +7,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -qy libsqlite3-dev
 
 USER root
 ENV HOME /root
-ENV NODE_VER iojs-v1.8
+ENV NODE_VER 0.12
 
 
 RUN git clone https://github.com/creationix/nvm.git $HOME/.nvm
